@@ -1,3 +1,4 @@
+alembic==1.19.2
 annotated-doc==0.0.5
 annotated-types==0.8.0
 anyio==4.14.2
@@ -10,6 +11,8 @@ fastapi==0.141.1
 greenlet==3.5.5
 h11==0.16.0
 idna==3.19
+Mako==1.4.1
+MarkupSafe==3.0.3
 passlib==1.7.4
 pyasn1==0.6.4
 pycparser==3.0
@@ -21,6 +24,7 @@ python-multipart==0.0.32
 rsa==4.9.1
 six==1.17.0
 SQLAlchemy==2.0.52
+SQLAlchemy-Utils==0.42.1
 starlette==1.6.0
 typing-inspection==0.4.4
 typing_extensions==4.16.0
