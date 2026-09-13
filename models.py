@@ -21,9 +21,9 @@ class User(Base):
 
     id = Column("id", Integer, primary_key=True, autoincrement=True)
     name = Column("name", String)
-    email = Column("email", String, nullable=False),
-    password = Column("password", String),
-    active = Column("active", Boolean),
+    email = Column("email", String, nullable=False)
+    password = Column("password", String)
+    active = Column("active", Boolean)
     admin = Column("admin", Boolean, default=False)
 
     def __init__(self, name, email, password, active=True, admin=False):
